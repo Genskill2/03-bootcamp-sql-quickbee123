@@ -1,0 +1,1 @@
+SELECT b.title FROM publisher p, books b WHERE p.id = b.publisher AND p.name = "PHI";
