@@ -21,7 +21,7 @@ VALUES
 INSERT INTO subjects (name) 
 VALUES
 ("C"),
-("Unix"),
+("UNIX"),
 ("Technology"),
 ("Go"),
 ("Science Fiction"),
