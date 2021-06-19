@@ -7,7 +7,7 @@ CREATE TABLE publisher {
 CREATE TABLE books {
     id INTEGER PRIMARY KEY,
     title TEXT,
-    publisher INTEGER REFERENECES publisher(id)
+    publisher INTEGER REFERENCES publisher(id)
 };
 
 CREATE TABLE subjects {
@@ -17,5 +17,5 @@ CREATE TABLE subjects {
 
 CREATE TABLE books_subjects {
     book INTEGER REFERENECES books(id),
-    subject INTEGER REFERENECES subjects(id)
+    subject INTEGER REFERENCES subjects(id)
 };
